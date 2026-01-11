@@ -8,9 +8,9 @@ import json
 class StudentDatabase:
     def __init__(self):
         # MongoDB connection string - matches your existing setup
-        self.connection_string = os.getenv('MONGODB_URL', "mongodb+srv://admin:Admin%40123@cluster0.lgew08w.mongodb.net/Spiro")
-        self.database_name = os.getenv('DATABASE_NAME', "Council")
-        self.collection_name = os.getenv('COLLECTION_NAME', "students")
+        self.connection_string = os.getenv('MONGODB_URL',)
+        self.database_name = os.getenv('DATABASE_NAME')
+        self.collection_name = os.getenv('COLLECTION_NAME')
         self.scan_logs_collection = 'scan_logs'
         
         # Google Sheets configuration
