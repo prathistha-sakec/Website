@@ -80,10 +80,6 @@ For detailed instructions, see [RENDER_DEPLOYMENT.md](RENDER_DEPLOYMENT.md)
 
 ### Environment Variables for Production
 ```
-MONGODB_URL=mongodb+srv://admin:Admin%40123@cluster0.lgew08w.mongodb.net/Spiro
-DATABASE_NAME=Council
-COLLECTION_NAME=students
-SECRET_KEY=your-production-secret-key-change-this
 ADMIN_USERNAME=admin
 ADMIN_PASSWORD=password123
 DEBUG=false
